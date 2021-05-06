@@ -1,0 +1,100 @@
+
+header{
+	/*position: absolute;*/
+	z-index: 10;
+	width: 100%;
+}
+
+.navbar{
+	/*padding: 20px 0;*/
+
+}
+
+.navbar-brand img{
+	height: 120px;
+
+}
+
+.nav-item{
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+	background: #000;
+	color: #a93939;	
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+	color:#000;
+	padding: 5px 15px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+	background-color: #a93939;
+	color: #fff;
+}
+
+.banner{
+	position: relative;
+	background-image: url(img/010.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0px 200px;
+}
+
+.banner h2{
+	margin: 0;
+	padding: 0;
+	font-size: 2.8em;
+	font-weight: 1000;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.banner p{
+	margin: 1em 0 0;
+	padding: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #000;
+}
+
+.btnD1{
+	display: inline-block;
+	margin: 1em 0 0;
+	background: #a93939;
+	padding: 10px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	font-weight: 800;
+}
+
+.btnD1:hover{
+	background: #000;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar-light .navbar-toggler{
+	border: none;
+	color: #fff;
+	border: 2px solid #a93939;
+	border-radius: 0;
+	outline: none;
+}
+
+.navbar-collapse{
+	background: #fff;
+}
+
+@media (max-width: 768px){
+	.banner{
+		padding: 200px 0;
+	}	
+	.banner h2{
+		font-size: 1.8em;
+	}		
+}
